@@ -14,5 +14,5 @@ switch(employecheck) {
        hrsinday = 0;
        break;
 }
-var dailywage = wageperhr * hrsinday * employecheck;
+var dailywage = wageperhr * hrsinday;
 console.log("Daily Employee wage :", + dailywage);
