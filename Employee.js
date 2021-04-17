@@ -27,3 +27,4 @@ totalhrs = totalhrs + hrsinday;
 }
 }
 console.log("Monthly Employee wage :", + monthlywage);
+console,log("Total Working Hrs:" +totalhrs);
