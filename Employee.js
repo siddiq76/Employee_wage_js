@@ -20,11 +20,3 @@ switch(employecheck) {
        hrsinday = 0;
        break;
 }
-if(totalhrs <= 100){
-var dailywage = wageperhr * hrsinday;
-monthlywage = monthlywage + dailywage;
-totalhrs = totalhrs + hrsinday;
-}
-}
-console.log("Monthly Employee wage :", + monthlywage);
-console,log("Total Working Hrs:" +totalhrs);
